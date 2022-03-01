@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles to apply to body */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Balsamiq sans', cursive;
+    background-color: blanchedalmond;
+}
+
+.flex-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.flex-container, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    height: 80px;
+    width:100%;
+    background-color: lightblue;
+    border-bottom: 10px solid rgb(72, 154, 165);
+    color: black;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+}
+
+#btn {
+    height: 30px;
+    width: 100px;
+    color: black;
+    background-color: blanchedalmond;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 4px 4px black;
+}
+
+.placeholder {
+    border: 2px solid black;
+    padding: 5px 5px;
+    box-shadow: 2px 2px black;
+}
+
+.flex-container.main {
+    align-items: flex-start;
+}
+
+.col-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.card {
+    background-color: #fff;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    padding: 10px 10px;;
+    box-shadow: 2px 3px rgb(72, 154, 165);
+}
+
+p {
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+.card-body h2,
+.card-body p {
+    margin: 2px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+.likes {
+    background-color: gold;
+    padding: 5px 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    margin-top: 10px;
+}
+
+.add {
+    background-color: lime;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px turquoise;
+    padding: 5px 5px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
